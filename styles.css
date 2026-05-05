@@ -7,16 +7,16 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background: linear-gradient(135deg, #cf43f6 0%, #d454ff 100%);
+    background: linear-gradient(135deg, #02ffff 0%, #54ffff 100%);
     min-height: 100vh;
-    color: #e37cff;
+    color: #7cfbff;
 }
 
 
 .app-container {
     max-width: 1200px;
     margin: 0 auto;
-    background: #10063e;
+    background: #3e2c06;
     min-height: 100vh;
     box-shadow: 0 0 40px rgb(0, 0, 0);
 }
@@ -24,8 +24,8 @@ body {
 
 /* Header */
 .header {
-    background: linear-gradient(135deg, #b42dc3, #4355a3);
-    color: rgb(53, 32, 76);
+    background: linear-gradient(135deg, #66420d, #a37943);
+    color: rgb(0, 255, 255);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -66,9 +66,9 @@ body {
 
 
 .edit-logo-btn {
-    background: rgb(217, 145, 255);
+    background: rgb(145, 255, 255);
     border: none;
-    color: rgb(61, 32, 105);
+    color: rgb(105, 60, 32);
     padding: 8px;
     border-radius: 50%;
     cursor: pointer;
@@ -90,7 +90,7 @@ body {
 
 
 .btn-install {
-    background: rgb(135, 7, 255);
+    background: rgb(7, 255, 251);
     border: none;
     color: rgb(0, 0, 0);
     padding: 8px 16px;
@@ -102,17 +102,17 @@ body {
 
 
 .btn-install:hover {
-    background: rgb(241, 196, 255);
+    background: rgb(196, 255, 245);
 }
 
 
 /* Navegação */
 .main-nav {
     display: flex;
-    background: rgb(216, 75, 255);
+    background: rgb(75, 255, 228);
     padding: 10px;
     gap: 5px;
-    box-shadow: 0 2px 10px rgb(107, 39, 136);
+    box-shadow: 0 2px 10px rgb(136, 83, 39);
     flex-wrap: wrap;
 }
 
@@ -129,7 +129,7 @@ body {
     align-items: center;
     gap: 5px;
     font-size: 0.85rem;
-    color: #371549;
+    color: #493015;
     transition: all 0.3s;
 }
 
@@ -140,7 +140,7 @@ body {
 
 
 .nav-btn.active {
-    background: linear-gradient(135deg, #d277ff, #4d3570);
+    background: linear-gradient(135deg, #77fff4, #704835);
     color: rgb(0, 0, 0);
 }
 
@@ -184,16 +184,16 @@ body {
 
 
 .venda-card, .ultimas-vendas {
-    background: rgb(30, 14, 88);
+    background: rgb(88, 47, 14);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 4px 15px rgb(16, 9, 55);
+    box-shadow: 0 4px 15px rgb(55, 32, 9);
 }
 
 
 .venda-card h2, .ultimas-vendas h3 {
     margin-bottom: 20px;
-    color: #6682ff;
+    color: #66ffff;
 }
 
 
@@ -207,7 +207,7 @@ body {
 .cliente-section select, .produto-input select {
     flex: 1;
     padding: 12px;
-    border: 2px solid #e15bff;
+    border: 2px solid #5bfff4;
     border-radius: 12px;
     font-size: 1rem;
 }
@@ -215,7 +215,7 @@ body {
 
 .btn-small {
     padding: 12px 20px;
-    background: #f587ff;
+    background: #aeffff;
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -224,7 +224,7 @@ body {
 
 
 .btn-small:hover {
-    background: #93089f;
+    background: #089a9f;
 }
 
 
@@ -243,7 +243,7 @@ body {
 .produto-input input {
     flex: 1;
     padding: 12px;
-    border: 2px solid #ff7ef9;
+    border: 2px solid #7effff;
     border-radius: 12px;
     font-size: 1rem;
 }
@@ -251,8 +251,8 @@ body {
 
 .btn-add {
     padding: 12px 20px;
-    background: #fb80ff;
-    color: rgb(58, 14, 61);
+    background: #19fbff;
+    color: rgb(61, 39, 14);
     border: none;
     border-radius: 12px;
     cursor: pointer;
@@ -261,7 +261,7 @@ body {
 
 
 .btn-add:hover {
-    background: #7b1495;
+    background: #088797;
     transform: scale(1.02);
 }
 
@@ -297,7 +297,7 @@ body {
 
 .carrinho-item-preco {
     font-size: 0.85rem;
-    color: #e20aff;
+    color: #0afff3;
 }
 
 
@@ -309,13 +309,13 @@ body {
 
 .carrinho-item-total {
     font-weight: 700;
-    color: #c39eff;
+    color: #9ef7ff;
 }
 
 
 .carrinho-item-remove {
-    background: #df75ff;
-    color: rgb(55, 19, 58);
+    background: #75fff1;
+    color: rgb(58, 33, 19);
     border: none;
     padding: 5px 10px;
     border-radius: 8px;
@@ -334,7 +334,7 @@ body {
 
 
 .total-value {
-    color: #cb90ff;
+    color: #90fff6;
     font-size: 1.5rem;
 }
 
@@ -358,25 +358,25 @@ body {
 
 
 .btn-primary {
-    background: linear-gradient(135deg, #ca79f8, #dfaeff);
+    background: linear-gradient(135deg, #79f8e2, #aefff1);
     color: rgb(59, 24, 11);
 }
 
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgb(238, 106, 255);
+    box-shadow: 0 4px 12px rgb(106, 255, 240);
 }
 
 
 .btn-secondary {
-    background: #dfaeff;
-    color: #3d024b;
+    background: #46e7c7;
+    color: #ffffff;
 }
 
 
 .btn-secondary:hover {
-    background: #8e0d9c;
+    background: #0d9c95;
 }
 
 
@@ -400,17 +400,17 @@ body {
 
 
 .stat-card {
-    background: rgb(211, 145, 255);
+    background: rgb(145, 255, 240);
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 4px 15px rgb(60, 28, 135);
+    box-shadow: 0 4px 15px rgb(135, 78, 28);
 }
 
 
 .stat-card i {
     font-size: 2rem;
-    color: #8a33a9;
+    color: #a95e33;
     margin-bottom: 10px;
 }
 
@@ -419,12 +419,12 @@ body {
     font-size: 2rem;
     font-weight: bold;
     display: block;
-    color: #93279f;
+    color: #9f5927;
 }
 
 
 .stat-card.alerta .stat-value {
-    color: #7b279f;
+    color: #9f5927;
 }
 
 
@@ -437,7 +437,7 @@ body {
 
 .filtros-estoque input, .filtros-estoque select {
     padding: 12px;
-    border: 2px solid #ae00ff;
+    border: 2px solid #00fff2;
     border-radius: 12px;
     font-size: 1rem;
 }
@@ -454,10 +454,10 @@ body {
 
 
 .tabela-estoque {
-    background: rgba(54, 24, 65, 0.793);
+    background: rgba(65, 36, 24, 0.793);
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgb(107, 39, 156);
+    box-shadow: 0 4px 15px rgb(156, 99, 39);
 }
 
 
@@ -475,19 +475,19 @@ th, td {
 
 
 th {
-    background: #682a6e;
+    background: #6e402a;
     font-weight: 600;
-    color: #e095fd;
+    color: #95fdf6;
 }
 
 
 tr:hover {
-    background: #af1db1;
+    background: #1e93a8;
 }
 
 
 .estoque-baixo {
-    color: #4c1665;
+    color: #653016;
     font-weight: 600;
 }
 
@@ -502,14 +502,14 @@ tr:hover {
 
 
 .btn-editar {
-    background: #5e226a;
-    color: rgb(233, 179, 255);
+    background: #6a3822;
+    color: rgb(179, 255, 255);
 }
 
 
 .btn-excluir {
-    background: #5c1f80;
-    color: rgb(242, 194, 255);
+    background: #80391f;
+    color: rgb(194, 255, 250);
 }
 
 
@@ -522,10 +522,10 @@ tr:hover {
 
 
 .card-cliente {
-    background: rgb(208, 77, 255);
+    background: rgb(77, 255, 252);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 4px 15px rgb(82, 30, 102);
+    box-shadow: 0 4px 15px rgb(102, 65, 30);
     transition: all 0.3s;
 }
 
@@ -538,18 +538,18 @@ tr:hover {
 
 .card-cliente h3 {
     margin-bottom: 10px;
-    color: #4f2c62;
+    color: #623e2c;
 }
 
 
 .card-cliente p {
-    color: #5d2c71;
+    color: #71452c;
     margin-bottom: 5px;
 }
 
 
 .card-cliente .debito {
-    color: #844aa4;
+    color: #a4674a;
     font-weight: bold;
     font-size: 1.2rem;
     margin: 10px 0;
@@ -557,13 +557,13 @@ tr:hover {
 
 
 .card-cliente .limite {
-    color: #6f318c;
+    color: #8c5d31;
 }
 
 
 .btn-pagar {
-    background: #7e276e;
-    color: rgb(203, 143, 255);
+    background: #7e4827;
+    color: rgb(143, 255, 240);
     border: none;
     padding: 8px 16px;
     border-radius: 12px;
@@ -574,14 +574,14 @@ tr:hover {
 
 
 .btn-pagar:hover {
-    background: #8619b4;
+    background: #19b4ae;
 }
 
 
 /* Fiado */
 .fiado-resumo {
-    background: linear-gradient(135deg, #d373ff, #b973ff);
-    color: rgb(52, 31, 130);
+    background: linear-gradient(135deg, #8ffffd, #73fff3);
+    color: rgb(130, 61, 31);
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -608,7 +608,7 @@ tr:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(82, 22, 125);
+    background: rgb(125, 67, 22);
     justify-content: center;
     align-items: center;
     z-index: 1000;
@@ -621,8 +621,7 @@ tr:hover {
 
 
 .modal-content {
-    background: 
-    rgb(195, 135, 255);
+    background: rgb(135, 255, 247);
     padding: 30px;
     border-radius: 20px;
     width: 90%;
@@ -639,7 +638,7 @@ tr:hover {
     width: 100%;
     padding: 12px;
     margin-bottom: 15px;
-    border: 2px solid #672878;
+    border: 2px solid #783f28;
     border-radius: 12px;
     font-size: 1rem;
 }
@@ -662,17 +661,17 @@ tr:hover {
 
 
 .card-relatorio {
-    background: rgb(81, 30, 118);
+    background: rgb(118, 73, 30);
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 4px 15px rgb(62, 14, 69);
+    box-shadow: 0 4px 15px rgb(69, 31, 14);
 }
 
 
 .card-relatorio i {
     font-size: 2rem;
-    color: #8800ff;
+    color: #00e1ff;
     margin-bottom: 10px;
 }
 
@@ -681,7 +680,7 @@ tr:hover {
     font-size: 1.5rem;
     display: block;
     margin-top: 10px;
-    color: #bb68ff;
+    color: #68ffe6;
 }
 
 
